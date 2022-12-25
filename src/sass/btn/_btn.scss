@@ -1,0 +1,17 @@
+.button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: $color_btn;
+    color: #ffffff;
+    font-family: "Museo Sans Cyrl 500";
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    &_promo {
+        @include btn_promo;        
+    } 
+
+}
+

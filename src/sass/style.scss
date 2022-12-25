@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Museo Sans Cyrl' sans-serif;
 }
 
 .container {
@@ -8,5 +8,11 @@
      margin: 0 auto;
 }
 
-@import './block/promo';
-@import './block/header';
+@import 'mixins/variables';
+@import 'mixins/mixin';
+/* MIXINS */
+
+@import 'block/promo';
+@import 'block/header';
+@import 'btn/btn';
+
