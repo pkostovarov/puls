@@ -12,6 +12,9 @@
     &_promo {
         @include btn_promo;        
     } 
+    &_submit {
+        @include btn_submit;
+    }
 
 }
 

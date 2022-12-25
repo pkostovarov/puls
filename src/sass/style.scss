@@ -11,8 +11,18 @@
 @import 'mixins/variables';
 @import 'mixins/mixin';
 /* MIXINS */
+@import 'media/media';
+/* media */
 
 @import 'block/promo';
 @import 'block/header';
+@import 'block/benefits';
+@import 'block/consultation';
+@import 'block/forms';
+
+
+/* block */
+
 @import 'btn/btn';
+
 

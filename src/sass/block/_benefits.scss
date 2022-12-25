@@ -1,0 +1,52 @@
+.benefits {
+    background-color: #f6f6f6;
+    &__header {
+        padding-top: 70px;        
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl 700";
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__wrapper {        
+        margin-top: 65px;
+    }
+    &__icons {
+        display: flex;
+        justify-content: space-between; 
+        align-items: baseline;     
+        
+    }
+    &__icon {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;        
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl 700";
+        font-size: 18px;
+        font-weight: 700;
+        img {    
+            display: block;        
+            width: 70px;
+            height: 70px;            
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+    }   
+    &__text {
+        margin-top: 26px;
+        width: 235px;
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl 300";
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 98px;
+        span {
+            color: red;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+    }
+    
+}

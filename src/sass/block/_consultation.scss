@@ -1,0 +1,23 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url(../img/bg/bg_bl3.png) center (center/cover) no-repeat;
+
+    &__header {
+        color: #ffffff;
+        font-family: "Museo Sans Cyrl 700";
+        font-size: 36px;
+        font-weight: 700; 
+        text-align: left;
+        text-transform: uppercase;
+
+    }
+    &__subheader {
+        margin-top: 80px;
+        color: #ffffff;
+        font-family: "Museo Sans Cyrl 500";
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+    }
+}
