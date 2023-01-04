@@ -1,0 +1,54 @@
+.map {
+    height: 630px;
+}
+
+.footer {    
+    padding: 25px  25px;
+    &__social {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__icon{
+        a {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        i {
+            margin: 10px 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 25px; 
+            transition: 0.3s all;
+            &:hover {
+                color: darkred;
+                font-size: 30px;
+
+            }        
+            
+        }
+
+    }
+    &__tel {
+        display: block;        
+        text-align: center;
+        font-size: 17px;
+        text-decoration: none;
+        color: black;
+        font-family: $font-family_300;
+        &:hover {
+            color: darkred;
+        }
+    }
+    address {
+        margin-top: 15px;
+        color: black;
+        font-family: $font-family_300;
+        font-size: 16px;
+
+    }
+
+    
+}
