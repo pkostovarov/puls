@@ -15,6 +15,17 @@
     &_submit {
         @include btn_submit;
     }   
+    &_modal {
+        width: 100%;
+        height: 55px;
+        border-radius: 5px;
+        background-color: $color_btn;
+        text-transform: uppercase;
+        font-family: "Museo Sans Cyrl 500";
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+    }
 
 }
 
