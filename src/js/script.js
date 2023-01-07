@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+    
     $('.slaider__inner').slick({
         speed: 1000, 
         adaptiveHeight: true, 
