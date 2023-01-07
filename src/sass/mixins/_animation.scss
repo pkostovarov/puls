@@ -1,0 +1,65 @@
+@keyframes heartbit {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.4);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes run {
+    from {
+        transform: rotate(-65deg);
+    }   
+    10% {
+        transform: rotate(-55deg)
+    }
+    20% {
+        transform: rotate(-45deg);
+    }
+    30% {
+        transform: rotate(-35deg);
+    }
+    50% {
+        transform: rotate(-25deg);
+    }
+    60% {
+        transform: rotate(-15deg);
+    }
+    70% {
+        transform: rotate(-5deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+
+}
+
+
+
+
+
+#heartbit {
+    animation-name: heartbit;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    &:hover {
+        animation-play-state: paused;
+    }
+}
+#run {
+    animation-name: run;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    &:hover {
+        animation-play-state: paused;
+    }    
+}

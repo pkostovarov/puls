@@ -8,14 +8,12 @@
         font-weight: 700;
         text-align: center;
     }
-    &__wrapper {        
-        margin-top: 65px;
-    }
     &__icons {
+        margin-top: 65px;
         display: flex;
         justify-content: space-between; 
-        align-items: baseline;     
-        
+        align-items: baseline; 
+           
     }
     &__icon {
         display: flex;
@@ -33,6 +31,7 @@
             margin: 0 auto;
             margin-bottom: 40px;
         }
+        
     }   
     &__text {
         margin-top: 26px;

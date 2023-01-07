@@ -3,18 +3,96 @@
 }/* 1200px */
 
 @media only screen and (max-width:991px) {
-    .benefits {
-        &__text {
-            font-family: "Museo Sans Cyrl 300";
-            font-size: 12px;            
-            font-weight: 300;
+    .header {
+        justify-content: space-around;
+        &__logo {
+            width: 200px;
         }
     }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
 
+    }
+
+    .benefits {
+        &__header {
+            font-size: 27px;
+        }
+        &__text {
+            margin-top: 20px;
+            font-size: 13px;           
+        }
+        &__icon {
+            img {
+                width: 65px;
+                height: 65px;
+            }
+
+        }
+    }
+    .consultation {
+        &__header {
+            font-size: 33px;
+        }
+    }
+    .slaider {
+        padding: 60px 0;
+        &__inner {
+            img {
+                width: 680px;
+                height: 450px;
+                margin-bottom: 40px;
+            }
+        }
+        .slick-dots {
+            margin-top: 45px;
+            padding: 0px;
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+        }
+        
+    }
+    .catalog {
+        padding-top: 50px;
+    }
+    .pageup {
+        right: 30px;
+        width: 30px;
+        height: 30px;
+    }
 }/* 991px работаем на 768px*/
 
 @media (max-width:767px) {
-
+    .benefits {
+        &__icons {
+            margin-top: 65px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .slaider {
+        padding: 60px 0;
+        &__inner {
+            img {
+                width: 550px;
+                height: 450px;
+                margin-bottom: 40px;
+            }
+        }
+        .slick-dots {
+            margin-top: 45px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+        
+    }
 }/* 767px mobile работаем на 576 */
 
 @media (max-width:575px) {

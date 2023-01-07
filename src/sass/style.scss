@@ -10,6 +10,7 @@
 
 @import 'mixins/variables';
 @import 'mixins/mixin';
+@import 'mixins/animation';
 /* MIXINS */
 
 
@@ -24,9 +25,11 @@
 @import 'block/footer';
 @import 'block/modal';
 
+
 /* block */
 
 @import 'btn/btn';
+@import 'btn/pageup';
 
 
 @import 'media/media';
