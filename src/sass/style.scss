@@ -1,5 +1,5 @@
 * {
-    font-family: 'Museo Sans Cyrl'  sans-serif;
+    font-family: 'Museo Sans Cyrl',  sans-serif;
 }
 
 .container {
@@ -7,6 +7,12 @@
      max-width: 950px;
      margin: 0 auto;
 }
+
+@import 'libs/bootstrap-grid.min';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/animate';
+/* Libs */
 
 @import 'mixins/variables';
 @import 'mixins/mixin';

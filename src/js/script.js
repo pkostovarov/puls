@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
 
     // Slaider
@@ -32,5 +34,8 @@ $(document).ready(function(){
         }
 
     });
+    
         
 });
+
+
